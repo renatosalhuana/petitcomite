@@ -11,22 +11,27 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <nav class="nav wrap" aria-label="Navegación principal">
-        <a class="brand" href="#inicio" aria-label="Petit Comité, inicio">petit <em>comité</em></a>
+    <header class="hero" id="inicio">
+      <p class="shipping">Envíos a toda España</p>
+      <nav class="nav" aria-label="Navegación principal">
         <button class="menu" aria-label="Abrir menú"><span></span><span></span></button>
-        <div class="nav-links">
-          <a href="#experiencias">Experiencias</a>
-          <a href="#nosotros">Nosotros</a>
-          <a href="#contacto">Contacto</a>
+        <a class="search" href="#experiencias" aria-label="Buscar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="5.7"></circle><path d="m15.1 15.1 4.2 4.2"></path></svg>
+        </a>
+        <a class="brand" href="#inicio" aria-label="Petit Comité, inicio">PETIT COMITÉ</a>
+        <div class="nav-actions">
+          <a href="#nosotros" aria-label="Favoritos">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.4c0 5-8.8 10-8.8 10s-8.8-5-8.8-10a4.6 4.6 0 0 1 8.8-1.9 4.6 4.6 0 0 1 8.8 1.9Z"></path></svg>
+          </a>
+          <a href="#contacto" aria-label="Mi cuenta">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.7 20.1c.7-3.2 3.1-5 6.3-5s5.6 1.8 6.3 5"></path></svg>
+          </a>
+          <a href="#contacto" aria-label="Bolsa de compra">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8.2h14l-1 11H6l-1-11Z"></path><path d="M8.8 8.2V6.6a3.2 3.2 0 0 1 6.4 0v1.6"></path></svg>
+          </a>
         </div>
       </nav>
-      <div class="hero-copy wrap" id="inicio">
-        <p class="eyebrow light">comer, compartir, celebrar</p>
-        <h1>Las mejores historias<br />empiezan <i>en la mesa.</i></h1>
-        <a class="button button-light" href="#experiencias">Descubre nuestras experiencias <span>↘</span></a>
-      </div>
-      <p class="scroll-note">desliza para descubrir <span></span></p>
+      <div class="hero-image" role="img" aria-label="Mesa con una copa, servilletas y textiles verdes"></div>
     </header>
 
     <main>
