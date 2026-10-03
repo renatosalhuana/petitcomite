@@ -9,12 +9,12 @@
     */
 
     --green: #91a685;
-    --dark-green: #405746;
+    --dark-green: #ffffff;
 
-    --cream: #d9d8b5;
-    --cream-light: #e5e2c5;
+    --cream: #8A1F4B;
+    --cream-light: #91a685;
 
-    --text: #405746;
+    --text: #ffffff;
     --muted: #6d7568;
 
     --white: #ffffff;
@@ -291,7 +291,7 @@ input {
 
     left: 0;
 
-    bottom: -0.4px;
+    bottom: -0.1px;
 
     width: 100%;
 
@@ -1275,7 +1275,6 @@ input {
         height: 40px;
     }
 
-
     .top-bar p {
 
         font-size: 11px;
@@ -1286,19 +1285,15 @@ input {
 
     .header-content {
 
-        min-height: 170px;
+        min-height: 100px;
 
-        padding:
-
-            35px
-            15px
-            25px;
+        padding: 15px;
     }
 
 
     .logo {
 
-        font-size: 38px;
+        font-size: 25px;
 
         margin-bottom: 30px;
     }
